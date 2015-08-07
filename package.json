@@ -1,11 +1,11 @@
 {
   "name": "sails-oradb",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Oracle Database adapter for Sails.js. ¡Testing, NOT WORKING YET!",
   "main": "lib/adapter.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/segarcialo/sails-oradb.git"
+    "url": "git+https://github.com/baitic/sails-oradb.git"
   },
   "keywords": [
     "orm",
@@ -13,7 +13,7 @@
     "oracle",
     "oracledb",
     "sails",
-    "oracledb oracle",
+    "sails-oracle",
     "sailsjs",
     "sails.js"
   ],
@@ -46,14 +46,14 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/segarcialo/sails-oradb/issues"
+    "url": "https://github.com/baitic/sails-oradb/issues"
   },
   "_id": "sails-oradb@0.0.9",
   "_shasum": "52618ca79d57155d203c4dee1ed5310aeaa916d1",
   "_from": "sails-oradb@*",
   "scripts": {},
   "gitHead": "173481784a5c7466e2b3dc28f4f0ed5a3013fb42",
-  "homepage": "https://github.com/segarcialo/sails-oradb#readme",
+  "homepage": "https://github.com/baitic/sails-oradb#readme",
   "_npmVersion": "2.9.1",
   "_nodeVersion": "0.10.38",
   "_npmUser": {

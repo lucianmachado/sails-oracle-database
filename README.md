@@ -6,7 +6,7 @@ A [Waterline](https://github.com/balderdashy/waterline) adapter for Oracle Datab
 
 ## ¡Important advice!
 
-Adapter is not finished yet. It only has implemented a few functionalities for testing purposes. 
+The Adapter is not finished yet. It only has implemented a few functionalities for testing purposes. 
 
 Things that you can do NOW:
 
@@ -15,6 +15,12 @@ Things that you can do NOW:
 - Populate find request (Joins).
 - Create, modify and delete automatically DB tables (Alter mode).
 
+Notice:
+
+- The automatic addition of new collumns for existing tables is not working properly yet.
+- Autoincrement for a primary key is not implemented automatically when a table is created. You must do it manually for the moment.
+
+
 ToDo List:
 
 - Insert request.
@@ -22,11 +28,6 @@ ToDo List:
 - Delete request.
 - Count request.
 - More.
-
-Notice:
-
-- The automatic addition of new collumns for existing tables is not working properly yet.
-- Autoincrement for a primary key is not implemented automatically when a table is created. You must do it manually for the moment.
 
 Main functionalities like insert, update and delete will be done as soon as posible!
 
