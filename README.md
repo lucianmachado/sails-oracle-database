@@ -12,16 +12,21 @@ Things that you can do NOW:
 
 - Connect to an Oracle database.
 - Do find request.
+- Populate find request (Joins).
+- Create, modify and delete automatically DB tables (Alter mode).
 
 ToDo List:
 
-- Populate find request.
 - Insert request.
 - Update request.
 - Delete request.
 - Count request.
-- Create and modify automatically DB tables.
 - More.
+
+Notice:
+
+- The automatic addition of new collumns for existing tables is not working properly yet.
+- Autoincrement for a primary key is not implemented automatically when a table is created. You must do it manually for the moment.
 
 Main functionalities like insert, update and delete will be done as soon as posible!
 
