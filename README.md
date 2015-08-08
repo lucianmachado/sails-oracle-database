@@ -2,11 +2,11 @@
 
 # Oracle Database Sails/Waterline Adapter
 
-A [Waterline](https://github.com/balderdashy/waterline) adapter for Oracle Database. It uses the Node.JS Oracle Driver mantained by Oracle Corp.  May be used in a [Sails](https://github.com/balderdashy/sails) app or anything using Waterline for the ORM.
+A [Waterline](https://github.com/balderdashy/waterline) adapter for Oracle Database that uses the Node Oracle Driver mantained by Oracle Corp.  May be used in a [Sails](https://github.com/balderdashy/sails) app or anything using Waterline for the ORM.
 
 ## ¡Important advice!
 
-The Adapter is not finished yet. It only has implemented a few functionalities for testing purposes. 
+The Adapter is not finished yet. It only has implemented few functionalities for testing purposes. 
 
 Things that you can do NOW:
 
@@ -33,7 +33,7 @@ Main functionalities like insert, update and delete will be done as soon as posi
 
 ## Install
 
-As oracledb driver module is a dependency you must read [How to Install](https://github.com/oracle/node-oracledb/blob/master/INSTALL.md)
+As oracledb driver module is a dependency you must read [How to Install](https://github.com/oracle/node-oracledb/blob/master/INSTALL.md) it.
 
 Install is through NPM.
 
