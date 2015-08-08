@@ -47,29 +47,5 @@
   },
   "bugs": {
     "url": "https://github.com/baitic/sails-oradb/issues"
-  },
-  "_id": "sails-oradb@0.0.9",
-  "_shasum": "52618ca79d57155d203c4dee1ed5310aeaa916d1",
-  "_from": "sails-oradb@*",
-  "scripts": {},
-  "gitHead": "173481784a5c7466e2b3dc28f4f0ed5a3013fb42",
-  "homepage": "https://github.com/baitic/sails-oradb#readme",
-  "_npmVersion": "2.9.1",
-  "_nodeVersion": "0.10.38",
-  "_npmUser": {
-    "name": "segarcialo",
-    "email": "sgarcia@baitic.com"
-  },
-  "dist": {
-    "shasum": "52618ca79d57155d203c4dee1ed5310aeaa916d1",
-    "tarball": "http://registry.npmjs.org/sails-oradb/-/sails-oradb-0.0.9.tgz"
-  },
-  "maintainers": [
-    {
-      "name": "segarcialo",
-      "email": "sgarcia@baitic.com"
-    }
-  ],
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/sails-oradb/-/sails-oradb-0.0.9.tgz"
+  }
 }
