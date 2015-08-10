@@ -2,6 +2,8 @@
 
 # Oracle Database Sails/Waterline Adapter
 
+[![Build Status](https://travis-ci.org/baitic/sails-oradb.png?branch=master)](https://travis-ci.org/baitic/sails-oradb) [![npm version](https://badge.fury.io/js/sails-oradb.svg)](http://badge.fury.io/js/sails-oradb) [![Dependency Status](https://gemnasium.com/baitic/sails-oradb.png)](https://gemnasium.com/baitic/sails-oradb)
+
 A [Waterline](https://github.com/balderdashy/waterline) adapter for Oracle Database that uses the Node Oracle Driver mantained by Oracle Corp.  May be used in a [Sails](https://github.com/balderdashy/sails) app or anything using Waterline for the ORM.
 
 ## ¡Important advice!
