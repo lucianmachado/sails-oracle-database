@@ -28,7 +28,7 @@ ToDo List:
     - On alter mode, implement createEach method.
     - On alter mode, create automatically triggers and sequences for autoincrementable attributes.
     - On insert autoincrementable attribute value, set its sequence if necessary.
-    - Allow using multiple Oracle connections in application.
+    - Allow using multiple Oracle connections.
 - More.
 
 Notice:
