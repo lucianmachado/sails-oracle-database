@@ -12,10 +12,24 @@ The Adapter is not finished yet. It only has implemented few functionalities for
 
 Things that you can do NOW:
 
-- Connect to an Oracle database.
-- Do find request.
-- Populate find request (Joins).
-- Create, modify and delete automatically DB tables (Alter mode).
+- Connect to an Oracle database. (05/Aug/2015)
+- Do find request. (05/Aug/2015)
+- Populate find request (Joins). (07/Aug/2015)
+- Create, modify and delete automatically DB tables (Alter mode). (07/Aug/2015)
+- Insert request. (11/Aug/2015)
+
+ToDo List:
+
+- Update request.
+- Delete request.
+- Count request.
+- Improvements:
+    - On alter mode, allow the automatic addition and deletion of table columns individually.
+    - On alter mode, implement createEach method.
+    - On alter mode, create automatically triggers and sequences for autoincrementable attributes.
+    - On insert autoincrementable attribute value, set its sequence if necessary.
+    - Allow using multiple Oracle connections in application.
+- More.
 
 Notice:
 
@@ -23,15 +37,7 @@ Notice:
 - Autoincrement for a primary key is not implemented automatically when a table is created. You must do it manually for the moment.
 
 
-ToDo List:
-
-- Insert request.
-- Update request.
-- Delete request.
-- Count request.
-- More.
-
-Main functionalities like insert, update and delete will be done as soon as posible!
+Main functionalities like update and delete will be done as soon as posible!
 
 ## Install
 
