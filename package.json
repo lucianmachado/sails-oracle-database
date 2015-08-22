@@ -1,6 +1,6 @@
 {
   "name": "sails-oradb",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Oracle Database adapter for Sails.js. ¡Testing, NOT WORKING YET!",
   "main": "lib/adapter.js",
   "repository": {

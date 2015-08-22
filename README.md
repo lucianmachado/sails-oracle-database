@@ -4,11 +4,11 @@
 
 [![npm version](https://badge.fury.io/js/sails-oradb.svg)](http://badge.fury.io/js/sails-oradb) [![Dependency Status](https://gemnasium.com/baitic/sails-oradb.png)](https://gemnasium.com/baitic/sails-oradb)
 
-A [Waterline](https://github.com/balderdashy/waterline) adapter for Oracle Database that uses the Node Oracle Driver mantained by Oracle Corp.  May be used in a [Sails](https://github.com/balderdashy/sails) app or anything using Waterline for the ORM.
+A [Waterline](https://github.com/balderdashy/waterline) adapter for Oracle Database that uses the Official Node Oracle Driver mantained by Oracle Corp.  May be used in a [Sails](https://github.com/balderdashy/sails) app or anything using Waterline for the ORM.
 
 ## ¡Important advice!
 
-The Adapter is not finished yet. It only has implemented few functionalities for testing purposes. 
+The Adapter is not finished yet. It has few functionalities pending for fixes, but you can use it. 
 
 Things that you can do NOW:
 
@@ -17,27 +17,24 @@ Things that you can do NOW:
 - Populate find request (Joins). (07/Aug/2015)
 - Create, modify and delete automatically DB tables (Alter mode). (07/Aug/2015)
 - Insert request. (11/Aug/2015)
+- Update request. (22/Aug/2015)
+- Delete request. (22/Aug/2015)
+- Use multiple Oracle connections on Sails App. (22/Aug/2015)
 
-ToDo List:
+Pending fixes:
 
-- Update request.
-- Delete request.
+- On alter mode, create automatically triggers and sequences for autoincrementable attributes. Now you must create them manually.
+- The PK column must be id.
+- Now in updates you must use id on where clause.
 - Count request.
-- Improvements:
-    - On alter mode, allow the automatic addition and deletion of table columns individually.
-    - On alter mode, implement createEach method.
-    - On alter mode, create automatically triggers and sequences for autoincrementable attributes.
-    - On insert autoincrementable attribute value, set its sequence if necessary.
-    - Allow using multiple Oracle connections.
-- More.
+- On alter mode, allow the automatic addition and deletion of table columns individually.
+- On alter mode, implement createEach method.
+- On insert autoincrementable attribute value, set its sequence if necessary.
 
-Notice:
+From now you can work with this adapter using funcionalities as described. 
 
-- The automatic addition of new collumns for existing tables is not working properly yet.
-- Autoincrement for a primary key is not implemented automatically when a table is created. You must do it manually for the moment.
+We hope we can improve adapter actions as soon as posible.
 
-
-Main functionalities like update and delete will be done as soon as posible!
 
 ## Install
 
