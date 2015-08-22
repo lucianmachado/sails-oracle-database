@@ -8,7 +8,7 @@ A [Waterline](https://github.com/balderdashy/waterline) adapter for Oracle Datab
 
 ## ¡Important advice!
 
-The Adapter is not finished yet. It has few functionalities pending for fixes, but you can use it. 
+The Adapter is not finished yet. It has few functionalities pending for fixes, but you can use it. It works on both Windows and Linux systems.
 
 Things that you can do NOW:
 
