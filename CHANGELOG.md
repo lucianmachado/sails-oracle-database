@@ -4,4 +4,7 @@
 
 - Updated dependencies (oracledb 0.7.0 --> 1.3.0 & async).
 - Fixed bug: pool connection got idle at connection.poolTimeout seconds. connection.poolTimeout is set to 0
-- Added releaseConnection --> Thanks to [tomulin1](https://github.com/tomulin1)
+
+## sails-oradb v0.0.15 (15 Oct 2015)
+
+- Added releaseConnection. Thanks to [tomulin1](https://github.com/tomulin1)
