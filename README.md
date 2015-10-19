@@ -6,22 +6,17 @@
 
 A [Waterline](https://github.com/balderdashy/waterline) adapter for Oracle Database that uses the Official Node Oracle Driver (v1.3.0) mantained by Oracle Corp.  May be used in a [Sails](https://github.com/balderdashy/sails) app or anything using Waterline for the ORM.
 
-## ¡Important advice!
+## What you can do?
 
-The Adapter is not finished yet. It has few functionalities pending for fixes, but you can use it. It works on both Windows and Linux systems.
+It has few functionalities pending for development, but the adapter works. It works on both Windows and Linux systems.
 
-Things that you can do NOW:
+Things that you can do NOW and some important specs.:
 
-- Connect to an Oracle database. (05/Aug/2015)
-- Do find request. (05/Aug/2015)
-- Populate find request (Joins). (07/Aug/2015)
-- Create, modify and delete automatically DB tables (Alter mode). (07/Aug/2015)
-- Insert request. (11/Aug/2015)
-- Update request. (22/Aug/2015)
-- Delete request. (22/Aug/2015)
-- Use multiple Oracle connections on Sails App. (22/Aug/2015)
+- You can do CRUD requests: Create, Read, Update and Delete request using model IDs
+- You can do custom QUERIES with "query" method
+- Use alter mode on Sails.
 
-Pending fixes:
+Pending funcionalities:
 
 - On alter mode, create automatically triggers and sequences for autoincrementable attributes. Now you must create them manually.
 - The PK column must be id.
@@ -29,16 +24,14 @@ Pending fixes:
 - Count request.
 - On alter mode, allow the automatic addition and deletion of table columns individually.
 - On alter mode, implement createEach method.
-- On insert autoincrementable attribute value, set its sequence if necessary.
 
-From now you can work with this adapter using funcionalities as described. 
+From now, you can work with this adapter using funcionalities as described. 
 
 We hope we can improve adapter actions as soon as posible.
 
-
 ## Install
 
-As oracledb driver module is a dependency you must read [How to Install](https://github.com/oracle/node-oracledb/blob/master/INSTALL.md) it.
+oracledb driver module is a dependency, so before you install sails-oraddb you MUST read [How to Install](https://github.com/oracle/node-oracledb/blob/master/INSTALL.md) it.
 
 Install is through NPM.
 

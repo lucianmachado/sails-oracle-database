@@ -1,5 +1,9 @@
 # Change Log
 
+## sails-oradb v0.1.0 (19 Oct 2015)
+
+- Released v0.1.0
+
 ## sails-oradb v0.0.15 (15 Oct 2015)
 
 - Added releaseConnection. Thanks to [tomulin1](https://github.com/tomulin1)
