@@ -31,7 +31,7 @@ We hope we can improve adapter actions as soon as posible.
 
 ## Install
 
-oracledb driver module is a dependency, so before you install sails-oraddb you MUST read [How to Install](https://github.com/oracle/node-oracledb/blob/master/INSTALL.md) it.
+oracledb driver module is a dependency, so before you install sails-oradb you MUST read [How to Install](https://github.com/oracle/node-oracledb/blob/master/INSTALL.md) it.
 
 Install is through NPM.
 
