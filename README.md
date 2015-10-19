@@ -6,7 +6,7 @@
 
 A [Waterline](https://github.com/balderdashy/waterline) adapter for Oracle Database that uses the Official Node Oracle Driver (v1.3.0) mantained by Oracle Corp.  May be used in a [Sails](https://github.com/balderdashy/sails) app or anything using Waterline for the ORM.
 
-## What you can do?
+## What can you do?
 
 It has few functionalities pending for development, but the adapter works. It works on both Windows and Linux systems.
 
