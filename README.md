@@ -14,7 +14,7 @@ Things that you can do NOW and some important specs.:
 
 - You can do CRUD requests: Create, Read, Update and Delete request using model IDs
 - You can do custom QUERIES with "query" method
-- Use alter mode on Sails.
+- You can use alter mode on Sails.
 
 Pending funcionalities:
 
