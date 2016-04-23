@@ -1,4 +1,5 @@
 *.sw*
+.idea
 
 # Logs
 logs
