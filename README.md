@@ -23,7 +23,7 @@ Some features we are still working on:
 - On `migrate: alter` mode, automatically allow the individual addition and deletion of table columns.
 - On `migrate: alter` mode, implement a `createEach` method.
 
-## Install
+## How to install
 
 `oracledb` driver module is the main dependency of `sails-oradb`, so before installing it, you MUST read [How to Install oracledb](https://github.com/oracle/node-oracledb/blob/master/INSTALL.md).
 
@@ -33,7 +33,7 @@ Installation is performed via NPM as follows:
 $ npm install sails-oradb
 ```
 
-## Configuration
+## Configuration parameters
 
 The following configuration options are available along with their default values:
 
