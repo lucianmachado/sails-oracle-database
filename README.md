@@ -11,17 +11,17 @@ A [Waterline](https://github.com/balderdashy/waterline) adapter for Oracle Datab
 `sails-oradb` is an ORM adapter for `waterline` that works on both Windows and Linux systems. 
 
 - Allows to perform CRUD (Create/Read/Update/Delete) operations using model IDs.
-- Can run custom queries with the adapter's `query` method.
+- Can run custom queries with the adapter's `.query()` method.
 - Compatible with Sails' `migration: alter` mode. More information at [Sails.js documentation](http://sailsjs.com/documentation/concepts/models-and-orm/model-settings).
 
 Some features we are still working on:
 
-- Allow to select a primary key different from `id`.
-- Perform update requests without having to use `id` inside the where clause.
-- Provida a `count` method to retrieve the total number of objects inside a model.
+- Allow to select a primary key different from `id` with `autoPK: true`.
+- Perform update requests without having to use `id` inside the `where` clause.
+- Provida a `.count()` method to retrieve the total number of objects inside a model.
 - On `migrate: alter` mode, implement the creation of triggers and sequences for autoincremental attributes. It has to be manually created yet.
 - On `migrate: alter` mode, automatically allow the individual addition and deletion of table columns.
-- On `migrate: alter` mode, implement a `createEach` method.
+- On `migrate: alter` mode, implement a `.createEach()` method.
 
 ## How to install
 
