@@ -4,36 +4,30 @@
 
 [![npm version](https://badge.fury.io/js/sails-oradb.svg)](http://badge.fury.io/js/sails-oradb) [![Dependency Status](https://gemnasium.com/baitic/sails-oradb.png)](https://gemnasium.com/baitic/sails-oradb)
 
-A [Waterline](https://github.com/balderdashy/waterline) adapter for Oracle Database that uses the Official Node Oracle Driver (v1.3.0) mantained by Oracle Corp.  May be used in a [Sails](https://github.com/balderdashy/sails) app or anything using Waterline for the ORM.
+A [Waterline](https://github.com/balderdashy/waterline) adapter for Oracle Database that uses the Official Node Oracle Driver (v1.3.0) mantained by Oracle Corp.  It may be used in [Sails](https://github.com/balderdashy/sails) web applications or any another Node.js project using Waterline as ORM.
 
-## What can you do?
+## What can be done?
 
-It has few functionalities pending for development, but the adapter works. It works on both Windows and Linux systems.
+`sails-oradb` is an ORM adapter for `waterline` that works on both Windows and Linux systems. 
 
-Things that you can do NOW and some important specs.:
+- Allows to perform CRUD (Create/Read/Update/Delete) operations using model IDs.
+- Can run custom queries with the adapter's `query` method.
+- Compatible with Sails' `migration: alter` mode. More information at [Sails.js documentation](http://sailsjs.com/documentation/concepts/models-and-orm/model-settings).
 
-- You can do CRUD requests: Create, Read, Update and Delete request using model IDs
-- You can do custom QUERIES with "query" method
-- You can use alter mode on Sails.
+Some features we are still working on:
 
-Pending funcionalities:
-
-- On alter mode, create automatically triggers and sequences for autoincrementable attributes. Now you must create them manually.
-- The PK column must be id.
-- Now in updates you must use id on where clause.
-- Count request.
-- On alter mode, allow the automatic addition and deletion of table columns individually.
-- On alter mode, implement createEach method.
-
-From now, you can work with this adapter using funcionalities as described. 
-
-We hope we can improve adapter actions as soon as posible.
+- Allow to select a primary key different from `id`.
+- Perform update requests without having to use `id` inside the where clause.
+- Provida a `count` method to retrieve the total number of objects inside a model.
+- On `migrate: alter` mode, implement the creation of triggers and sequences for autoincremental attributes. It has to be manually created yet.
+- On `migrate: alter` mode, automatically allow the individual addition and deletion of table columns.
+- On `migrate: alter` mode, implement a `createEach` method.
 
 ## Install
 
-oracledb driver module is a dependency, so before you install sails-oradb you MUST read [How to Install](https://github.com/oracle/node-oracledb/blob/master/INSTALL.md) it.
+`oracledb` driver module is the main dependency of `sails-oradb`, so before installing it, you MUST read [How to Install oracledb](https://github.com/oracle/node-oracledb/blob/master/INSTALL.md).
 
-Install is through NPM.
+Installation is performed via NPM as follows:
 
 ```bash
 $ npm install sails-oradb
@@ -41,19 +35,19 @@ $ npm install sails-oradb
 
 ## Configuration
 
-The following config options are available along with their default values:
+The following configuration options are available along with their default values:
 
 ```javascript
 config: {
     adapter: 'sails-oradb',
     connectString: 'host:port/databaseName',
-    user: 'root',
-    password: ''
+    user: 'user',
+    password: 'password'
 };
 ```
 
 ## About Waterline
 
-Waterline is a new kind of storage and retrieval engine.  It provides a uniform API for accessing stuff from different kinds of databases, protocols, and 3rd party APIs.  That means you write the same code to get users, whether they live in mySQL, LDAP, MongoDB, or Facebook.
+Waterline is a new kind of storage and retrieval engine. It provides a uniform API for accessing stuff from different kinds of databases, protocols, and 3rd party APIs.  That means you write the same code to get users, whether they live in mySQL, LDAP, MongoDB, or Facebook.
 
 To learn more visit the project on GitHub at [Waterline](https://github.com/balderdashy/waterline).
