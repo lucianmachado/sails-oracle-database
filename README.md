@@ -41,6 +41,7 @@ config: {
     adapter: 'sails-oradb',
     connectString: 'host:port/databaseName',
     logQueries:true,
+    dateFormat: 'dd-mm-yyyy hh24:mi:ss' //default
     debug:true,
     user: 'user',
     password: 'password'
