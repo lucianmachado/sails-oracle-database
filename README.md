@@ -30,7 +30,7 @@ Some features we are still working on:
 Installation is performed via NPM as follows:
 
 ```bash
-$ npm install sails-oradb
+$ npm install sails-oracle-database
 ```
 
 ## Configuration parameters
@@ -41,6 +41,8 @@ The following configuration options are available along with their default value
 config: {
     adapter: 'sails-oradb',
     connectString: 'host:port/databaseName',
+    logQueries:true,
+    debug:true,
     user: 'user',
     password: 'password'
 };
