@@ -1,11 +1,11 @@
 {
-  "name": "sails-oradb",
-  "version": "0.1.0",
+  "name": "sails-oracle-database",
+  "version": "0.1.1",
   "description": "Oracle Database adapter for Sails.js.",
   "main": "lib/adapter.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/baitic/sails-oradb.git"
+    "url": "git+https://github.com/lucianmachado/sails-oradb.git"
   },
   "keywords": [
     "orm",
@@ -13,13 +13,15 @@
     "oracle",
     "oracledb",
     "sails",
+    "oracle-database",
+    "sails-oracle-database",
     "sails-oracle",
     "sails-oracledb",
     "sailsjs",
     "sails.js"
   ],
   "author": {
-    "name": "Sergio Garcia <sgarcia@baitic.com>"
+    "name": ""
   },
   "license": "MIT",
   "dependencies": {
@@ -46,6 +48,6 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/baitic/sails-oradb/issues"
+    "url": ""
   }
 }
