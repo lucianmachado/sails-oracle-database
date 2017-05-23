@@ -20,7 +20,7 @@ The following configuration options are available along with their default value
 
 ```javascript
 config: {
-    adapter: 'sails-oradb',
+    adapter: 'sails-oracle-database',
     connectString: 'host:port/databaseName',
     logQueries:true,
     debug:true,
