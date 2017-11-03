@@ -25,7 +25,13 @@ config: {
     logQueries:true,
     debug:true,
     user: 'user',
-    password: 'password'
+    password: 'password',
+    skipDescribe:true,
+    prefetchRows:10000,
+    poolMax: 50,
+    poolMin: 0,
+    poolIncrement: 1, //only grow the pool by one connection at a time
+    poolTimeout: 0 //never terminate idle connections (seconds)
 };
 ```
 
